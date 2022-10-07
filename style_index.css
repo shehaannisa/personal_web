@@ -1,0 +1,75 @@
+body {
+  padding: 0px;
+  font-size: 18px;
+}
+
+.navbar {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(28, 56, 120, 0.772);
+  margin: -10px;
+  padding: 20px 150px;
+  font-family: sans-serif;
+}
+
+.left {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-family: forte;
+}
+
+#active {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 15px;
+}
+
+a.nav-link {
+  text-decoration: none;
+  padding: 5px;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+a.nav-link:hover {
+  border-radius: 100px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  padding: 5px 20px;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  margin-left: -10px;
+  background-image: url(https://a-static.besthdwallpaper.com/source-code-wallpaper-2048x1536-59960_26.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+.backdrop {
+  position: absolute;
+  margin-left: -10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.konten {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.konten h1 {
+  margin-top: 50px;
+  font-family: cursive;
+}
+
+div img {
+  border-radius: 100%;
+  border: 3px solid #fff;
+}
